@@ -17,6 +17,12 @@ for column in columns:
     plt.show()
 ```
 
+<div align="center">
+<img src="images/distribution of num values across multiple categories .png", alt="distribution of num values across multiple categories" height="350" width="750"></img>
+</div>
+<hr />
+
+
 ## Change the scale for better visualization
 ```python
 # Changing protein column to a square root scale to better visualization
@@ -26,3 +32,7 @@ sns.kdeplot(data= data_subset_2, x =  np.sqrt(data_subset_2['protein']), hue ='c
 plt.suptitle('Distribution of protein by category', y= 0.95, size=16)
 plt.show()
 ```
+<div align="center">
+<img src="images/change of scale.png", alt="change of scale" height="350" width="750"></img>
+</div>
+<hr />
