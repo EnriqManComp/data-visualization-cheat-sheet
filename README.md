@@ -61,7 +61,7 @@ plt.show()
 ```
 
 <div align="center">
-<img src="images/Confusion matrix.png", alt="Confusion matrix" height="350" width="750"></img>
+<img src="images/Confusion matrix.png", alt="Confusion matrix" height="350" width="550"></img>
 </div>
 <hr />
 
@@ -144,6 +144,6 @@ print(f'Max Recall: {max_recall:.2f} at FPR: {fpr_at_max_recall:.2f}')
 ```
 
 <div align="center">
-<img src="images/roc curve.png", alt="roc curve" height="350" width="750"></img>
+<img src="images/roc curve.png", alt="roc curve" height="350" width="550"></img>
 </div>
 <hr />
